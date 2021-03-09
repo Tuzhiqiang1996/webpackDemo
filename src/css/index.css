@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+}
+#img1{
+    background: url("../img/1.jpg");
+    height: 300px;
+}
+#img2{
+    background: url("../img/2.jpg");
+    height: 300px;
+}
