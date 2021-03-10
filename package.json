@@ -1,0 +1,37 @@
+{
+  "name": "webpackdemo",
+  "version": "0.0.1",
+  "description": "webpack",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^5.1.1",
+    "less-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^5.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.0",
+    "less": "^4.1.1",
+    "mini-css-extract-plugin": "^1.0.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.44.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --contentBase src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tuzhiqiang",
+  "license": "ISC",
+  "keywords": []
+}
